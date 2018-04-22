@@ -1,1 +1,2 @@
 Hoc git lai tu dau
+Học thêm lệnh pull
