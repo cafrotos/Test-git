@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<style>
+  .alert {
+    background-color: aquamarine;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+  }
+
+  .div {
+    background-color: brown;
+    height: 400px;
+    width: 400px;
+    z-index: 0;
+  }
+</style>
+
+<body>
+  <!-- <p class="link" style="position:absolute">Click vào đây</p>
+  <p class="alert" style="position:absolute">Hạnh ngố</p> -->
+
+  <div class="alert">
+    Hạnh ngố
+  </div>
+
+  <div class="div">
+    <button class="link">Click here</button>
+    <p style="position:absolute; top: 200px; left:160px"> Hạnh thông minh</p>
+  </div>
+
+  <script src="./jquery-3.3.1.min.js"></script>
+  <script src="./modelbox.js"></script>
+</body>
+
+</html>
